@@ -1,5 +1,5 @@
-# gabriel2m-zsh-theme
+# minimalist-zsh-theme
 
-A clean zsh-theme with current path and git branch.
+A minimalist zsh-theme with current path and git branch.
 
 ![demo.png](demo.png)
