@@ -17,5 +17,3 @@ precmd() {
 }
 
 zle_highlight+=('paste:none')
-
-echo -ne "\e[5 q"
