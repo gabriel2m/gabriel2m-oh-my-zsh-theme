@@ -5,10 +5,11 @@
 ![demo.png](demo.png)
 
 ## Installation
-
+1. Download theme:
 ```sh
-git clone https://github.com/gabriel2m/gabriel2m-oh-my-zsh-theme.git ${ZSH_CUSTOM}/themes/gabriel2m
-
-ln -s ${ZSH_CUSTOM}/themes/gabriel2m/gabriel2m.zsh-theme ${ZSH_CUSTOM}/themes/gabriel2m.zsh-theme
-# then update `ZSH_THEME` to `gabriel2m` in your .zshrc 
+curl -o $ZSH_CUSTOM/themes/gabriel2m.zsh-theme https://raw.githubusercontent.com/gabriel2m/gabriel2m-oh-my-zsh-theme/refs/heads/main/gabriel2m.zsh-theme
+```
+2. Edit the `ZSH_THEME` var in the `.zshrc` file:
+```zsh
+ZSH_THEME="gabriel2m"
 ```
